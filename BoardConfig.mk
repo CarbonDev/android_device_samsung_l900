@@ -22,4 +22,4 @@ TARGET_OTA_ASSERT_DEVICE := t0ltespr,l900,SPH-L900
 -include device/samsung/t0ltecdma/BoardCommonConfig.mk
 
 # include
--include vendor/samsung/l900/BoardConfigVendor.mk
+-include vendor/samsung/t0ltecdma/BoardConfigVendor.mk
