@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2012 The LiquidSmooth Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,16 +15,18 @@
 # limitations under the License.
 #
 
+# device
 LOCAL_PATH := device/samsung/l900
 
-# Overlay
+# overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Init files
+# include
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.smdk4x12:root/fstab.smdk4x12
 
-# Include common makefile
+# common
 $(call inherit-product, device/samsung/t0ltecdma/t0ltecdma.mk)
 
+# vendor
 $(call inherit-product-if-exists, vendor/samsung/l900/l900-vendor.mk)

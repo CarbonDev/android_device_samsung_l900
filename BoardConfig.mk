@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2012 The LiquidSmooth Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,13 +15,11 @@
 # limitations under the License.
 #
 
-# This variable is set first, so it can be overridden
-# by BoardConfigVendor.mk
-
--include device/samsung/t0ltecdma/BoardCommonConfig.mk
-
 # assert
 TARGET_OTA_ASSERT_DEVICE := t0ltespr,l900,SPH-L900
 
-# inherit from the proprietary version
+# common
+-include device/samsung/t0ltecdma/BoardCommonConfig.mk
+
+# include
 -include vendor/samsung/l900/BoardConfigVendor.mk
