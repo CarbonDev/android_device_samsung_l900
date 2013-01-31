@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2012 The CyanogenMod Project
-# Copyright (C) 2012 The LiquidSmooth Project
+# Copyright (C) 2012 The Carbon Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ $(call inherit-product, device/samsung/l900/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # product
-PRODUCT_NAME := liquid_l900
+PRODUCT_NAME := carbon_l900
 PRODUCT_DEVICE := l900
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
