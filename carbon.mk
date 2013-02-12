@@ -39,7 +39,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.l900.$(shell date +%m%d%y).$(
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_NUMBER=L900VPALJC \
     PRODUCT_NAME=t0ltespr \
-    TARGET_DEVICE=t0ltespr \
+    TARGET_DEVICE=t0ltecdma \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
     PRIVATE_BUILD_DESC="t0ltespr-user 4.1.1 JRO03C L900VPALJC release-keys" \
