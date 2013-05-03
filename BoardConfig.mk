@@ -16,7 +16,7 @@
 #
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := t0ltespr,l900,SPH-L900
+TARGET_OTA_ASSERT_DEVICE := t0ltespr,t0ltecdma,l900,SPH-L900
 
 # common
 -include device/samsung/t0ltecdma/BoardCommonConfig.mk
