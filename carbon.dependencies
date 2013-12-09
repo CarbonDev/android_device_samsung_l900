@@ -1,0 +1,26 @@
+[
+    {
+        "repository":  "CarbonDev/android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_device_samsung_smdk4412-qcom-common",
+        "target_path": "device/samsung/smdk4412-qcom-common",
+        "revision":    "cm-11.0"
+    },
+    {
+        "repository":  "CarbonDev/android_device_samsung_t0lte",
+        "target_path": "device/samsung/t0lte"
+    },
+    {
+        "remote":      "gh",
+        "repository":  "omnirom/android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
+        "revision":    "android-4.4"
+    },
+    {
+        "repository":  "CarbonDev/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung"
+    }
+]
