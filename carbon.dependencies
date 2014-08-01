@@ -20,6 +20,12 @@
         "revision":    "android-4.4"
     },
     {
+        "remote": "gh",
+        "repository": "SlimRoms/android_prebuilt",
+        "target_path": "prebuilt",
+        "revision": "kk4.4"
+    },
+    {
         "repository":  "CarbonDev/proprietary_vendor_samsung",
         "target_path": "vendor/samsung"
     }
