@@ -26,7 +26,9 @@
         "revision": "kk4.4"
     },
     {
-        "repository":  "CarbonDev/proprietary_vendor_samsung",
-        "target_path": "vendor/samsung"
+        "remote": "gh",
+        "repository": "TheThunderbirds/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "revision": "kk"
     }
 ]
